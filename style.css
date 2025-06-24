@@ -269,3 +269,52 @@ main{
         padding: 0.8rem 2rem;
     }
 }
+
+/* MY CUSTOM CSS BY OWN */
+
+.section-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 4rem;
+  margin-top: 6rem;
+}
+
+.text-block {
+  flex: 1;
+}
+
+.visual-block {
+  flex: 1;
+  height: 250\px;
+  background-color: #000000;
+  border-radius: 1rem;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.1);
+}
+
+
+
+
+
+
+
+.footer-link {
+  color: #e7e7e7;
+  text-decoration: none;
+  font-size: 1rem;
+  transition: color 0.3s ease;
+  z-index: 10;
+  position: relative;
+}
+
+.footer-link:hover {
+  color: #5300a0 !important; /* Bright pink for testing */
+}
+
+.section-wrapper {
+    width: 100;
+    margin: 0 auto;
+    padding: 0 2rem;
+    position: relative;
+    overflow: hidden;
+}
